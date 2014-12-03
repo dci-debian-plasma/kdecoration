@@ -8,6 +8,7 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Section: libs
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kdecoration
 
 Package: libkdecorations2-dev
