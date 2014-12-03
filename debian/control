@@ -1,0 +1,52 @@
+Source: kdecoration
+Priority: extra
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 1.3.0~),
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qtbase5-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://projects.kde.org/projects/kde/workspace/kdecoration
+
+Package: libkdecorations2-dev
+Section: libdevel
+Architecture: any
+Depends: libkdecorations2-5 (= ${binary:Version}),
+         libkdecorations2private5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: library to create window decorations - development files
+ KDecoration2 is a library to create window decorations. These window
+ decorations can be used by for example an X11 based window manager
+ which re-parents a Client window to a window decoration frame.
+ .
+ This package contains the development files.
+
+Package: libkdecorations2-5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library to create window decorations
+ KDecoration2 is a library to create window decorations. These window
+ decorations can be used by for example an X11 based window manager
+ which re-parents a Client window to a window decoration frame.
+
+Package: libkdecorations2private5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library to create window decorations - private library
+ KDecoration2 is a library to create window decorations. These window
+ decorations can be used by for example an X11 based window manager
+ which re-parents a Client window to a window decoration frame.
+ .
+ This package contains the private library parts that are not considered stable.
+
+Package: libkdecorations2-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: libkdecorations2-5 (= ${binary:Version}) | libkdecorations2private5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: library to create window decorations - debug info
+ .
+ This package contains the debugging symbols.
