@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.50 amd64
+# SymbolsHelper-Confirmed: 5.1.50+git20141206.0010+15.04 amd64 i386
 libkdecorations2.so.5 libkdecorations2-5 #MINVER#
  _ZN12KDecoration210Decoration10setBordersERK8QMargins@Base 5.1.50
  _ZN12KDecoration210Decoration10wheelEventEP11QWheelEvent@Base 5.1.50
@@ -151,6 +151,7 @@ libkdecorations2.so.5 libkdecorations2-5 #MINVER#
  _ZN12KDecoration218DecorationSettings11fontChangedERK5QFont@Base 5.1.50
  _ZN12KDecoration218DecorationSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.50
  _ZN12KDecoration218DecorationSettings11qt_metacastEPKc@Base 5.1.50
+ _ZN12KDecoration218DecorationSettings12reconfiguredEv@Base 5.1.50+git20141206.0010+15.04
  _ZN12KDecoration218DecorationSettings14spacingChangedEv@Base 5.1.50
  _ZN12KDecoration218DecorationSettings15gridUnitChangedEi@Base 5.1.50
  _ZN12KDecoration218DecorationSettings16staticMetaObjectE@Base 5.1.50
