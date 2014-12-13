@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.50 amd64
+# SymbolsHelper-Confirmed: 5.1.50+git20141213.0014+15.04 amd64 i386
 libkdecorations2private.so.5 libkdecorations2private5 #MINVER#
  _ZN12KDecoration216DecorationBridge11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.50
  _ZN12KDecoration216DecorationBridge11qt_metacastEPKc@Base 5.1.50
@@ -10,12 +10,19 @@ libkdecorations2private.so.5 libkdecorations2private5 #MINVER#
  _ZN12KDecoration216DecorationBridgeD2Ev@Base 5.1.50
  _ZN12KDecoration222DecoratedClientPrivate10decorationEv@Base 5.1.50
  _ZN12KDecoration222DecoratedClientPrivate6clientEv@Base 5.1.50
+ _ZN12KDecoration222DecoratedClientPrivate7PrivateC1EPNS_15DecoratedClientEPNS_10DecorationE@Base 5.1.50+git20141213.0014+15.04
+ _ZN12KDecoration222DecoratedClientPrivate7PrivateC2EPNS_15DecoratedClientEPNS_10DecorationE@Base 5.1.50+git20141213.0014+15.04
  _ZN12KDecoration222DecoratedClientPrivateC1EPNS_15DecoratedClientEPNS_10DecorationE@Base 5.1.50
  _ZN12KDecoration222DecoratedClientPrivateC2EPNS_15DecoratedClientEPNS_10DecorationE@Base 5.1.50
  _ZN12KDecoration222DecoratedClientPrivateD0Ev@Base 5.1.50
  _ZN12KDecoration222DecoratedClientPrivateD1Ev@Base 5.1.50
  _ZN12KDecoration222DecoratedClientPrivateD2Ev@Base 5.1.50
+ _ZN12KDecoration225DecorationSettingsPrivate11setGridUnitEi@Base 5.1.50+git20141213.0014+15.04
+ _ZN12KDecoration225DecorationSettingsPrivate15setLargeSpacingEi@Base 5.1.50+git20141213.0014+15.04
+ _ZN12KDecoration225DecorationSettingsPrivate15setSmallSpacingEi@Base 5.1.50+git20141213.0014+15.04
  _ZN12KDecoration225DecorationSettingsPrivate18decorationSettingsEv@Base 5.1.50
+ _ZN12KDecoration225DecorationSettingsPrivate7PrivateC1EPNS_18DecorationSettingsE@Base 5.1.50+git20141213.0014+15.04
+ _ZN12KDecoration225DecorationSettingsPrivate7PrivateC2EPNS_18DecorationSettingsE@Base 5.1.50+git20141213.0014+15.04
  _ZN12KDecoration225DecorationSettingsPrivateC1EPNS_18DecorationSettingsE@Base 5.1.50
  _ZN12KDecoration225DecorationSettingsPrivateC2EPNS_18DecorationSettingsE@Base 5.1.50
  _ZN12KDecoration225DecorationSettingsPrivateD0Ev@Base 5.1.50
@@ -24,8 +31,11 @@ libkdecorations2private.so.5 libkdecorations2private5 #MINVER#
  _ZNK12KDecoration216DecorationBridge10metaObjectEv@Base 5.1.50
  _ZNK12KDecoration222DecoratedClientPrivate10decorationEv@Base 5.1.50
  _ZNK12KDecoration225DecorationSettingsPrivate11fontMetricsEv@Base 5.1.50
+ _ZNK12KDecoration225DecorationSettingsPrivate12largeSpacingEv@Base 5.1.50+git20141213.0014+15.04
+ _ZNK12KDecoration225DecorationSettingsPrivate12smallSpacingEv@Base 5.1.50+git20141213.0014+15.04
  _ZNK12KDecoration225DecorationSettingsPrivate18decorationSettingsEv@Base 5.1.50
  _ZNK12KDecoration225DecorationSettingsPrivate4fontEv@Base 5.1.50
+ _ZNK12KDecoration225DecorationSettingsPrivate8gridUnitEv@Base 5.1.50+git20141213.0014+15.04
  _ZTIN12KDecoration216DecorationBridgeE@Base 5.1.50
  _ZTIN12KDecoration222DecoratedClientPrivateE@Base 5.1.50
  _ZTIN12KDecoration225DecorationSettingsPrivateE@Base 5.1.50
