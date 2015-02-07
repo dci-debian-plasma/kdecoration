@@ -1,5 +1,6 @@
 Source: kdecoration
-Priority: extra
+Section: libs
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
@@ -7,7 +8,6 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
 Standards-Version: 3.9.5
-Section: libs
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kdecoration
 
@@ -44,6 +44,7 @@ Description: library to create window decorations - private library
 
 Package: libkdecorations2-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Recommends: qtbase5-dbg
 Depends: libkdecorations2-5 (= ${binary:Version}) | libkdecorations2private5 (= ${binary:Version}),
