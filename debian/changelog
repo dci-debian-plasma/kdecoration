@@ -1,4 +1,4 @@
-kdecoration (4:5.2.0-1~) UNRELEASED; urgency=medium
+kdecoration (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -10,7 +10,7 @@ kdecoration (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add missing dev dependency (thanks to acc headers check)
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 14:54:49 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 15:42:34 +0100
 
 kdecoration (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
