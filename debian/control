@@ -10,6 +10,8 @@ Standards-Version: 3.9.5
 Section: libs
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kdecoration
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kdecoration.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kdecoration.git
 
 Package: libkdecorations2-dev
 Section: libdevel
