@@ -18,6 +18,21 @@ kdecoration (4:5.3.1-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:26:45 +0200
 
+kdecoration (4:5.3.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.3.0).
+  * Update symbols files.
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 12:00:48 +0200
+
+kdecoration (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:18:04 +0100
+
 kdecoration (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -29,6 +44,20 @@ kdecoration (4:5.2.1-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:37:12 -0800
+
+kdecoration (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+  * Add myself as Uploader.
+  * Update install files.
+  * Add acc autopkgtests.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Add missing dev dependency (thanks to acc headers check)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 15:42:34 +0100
 
 kdecoration (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
