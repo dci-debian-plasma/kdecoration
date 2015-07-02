@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# SymbolsHelper-Confirmed: 4:5.2.2+git20150416.0912+15.04 amd64 i386
-=======
 # SymbolsHelper-Confirmed: 4:5.3.0 amd64
->>>>>>> master
 libkdecorations2private.so.5 libkdecorations2private5 #MINVER#
  _ZN12KDecoration216DecorationBridge11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.50
  _ZN12KDecoration216DecorationBridge11qt_metacastEPKc@Base 5.1.50
@@ -34,11 +30,7 @@ libkdecorations2private.so.5 libkdecorations2private5 #MINVER#
  _ZN12KDecoration225DecorationSettingsPrivateD2Ev@Base 5.1.50
  _ZNK12KDecoration216DecorationBridge10metaObjectEv@Base 5.1.50
  _ZNK12KDecoration222DecoratedClientPrivate10decorationEv@Base 5.1.50
-<<<<<<< HEAD
- _ZNK12KDecoration222DecoratedClientPrivate5colorENS_10ColorGroupENS_9ColorRoleE@Base 4:5.2.2+git20150416.0912+15.04
-=======
  _ZNK12KDecoration222DecoratedClientPrivate5colorENS_10ColorGroupENS_9ColorRoleE@Base 4:5.3.0
->>>>>>> master
  _ZNK12KDecoration225DecorationSettingsPrivate11fontMetricsEv@Base 5.1.50
  _ZNK12KDecoration225DecorationSettingsPrivate12largeSpacingEv@Base 5.1.50+git20141213.0014+15.04
  _ZNK12KDecoration225DecorationSettingsPrivate12smallSpacingEv@Base 5.1.50+git20141213.0014+15.04
