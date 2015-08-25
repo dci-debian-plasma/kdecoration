@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:5.3.0 amd64
-libkdecorations2.so.5 libkdecorations2-5 #MINVER#
+libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration210Decoration10setBordersERK8QMargins@Base 5.1.50
  _ZN12KDecoration210Decoration10wheelEventEP11QWheelEvent@Base 5.1.50
  _ZN12KDecoration210Decoration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.50

@@ -9,7 +9,6 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/workspace/kdecoration
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kdecoration.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kdecoration.git
@@ -17,8 +16,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kdecoration.git
 Package: libkdecorations2-dev
 Section: libdevel
 Architecture: any
-Depends: libkdecorations2-5 (= ${binary:Version}),
-         libkdecorations2private5 (= ${binary:Version}),
+Depends: libkdecorations2-5v5 (= ${binary:Version}),
+         libkdecorations2private5v5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
 Description: library to create window decorations - development files
@@ -28,17 +27,21 @@ Description: library to create window decorations - development files
  .
  This package contains the development files.
 
-Package: libkdecorations2-5
+Package: libkdecorations2-5v5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkdecorations2-5
+Replaces: libkdecorations2-5
 Description: library to create window decorations
  KDecoration2 is a library to create window decorations. These window
  decorations can be used by for example an X11 based window manager
  which re-parents a Client window to a window decoration frame.
 
-Package: libkdecorations2private5
+Package: libkdecorations2private5v5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkdecorations2private5
+Replaces: libkdecorations2private5
 Description: library to create window decorations - private library
  KDecoration2 is a library to create window decorations. These window
  decorations can be used by for example an X11 based window manager
@@ -51,7 +54,7 @@ Section: debug
 Priority: extra
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: libkdecorations2-5 (= ${binary:Version}) | libkdecorations2private5 (= ${binary:Version}),
+Depends: libkdecorations2-5v5 (= ${binary:Version}) | libkdecorations2private5v5 (= ${binary:Version}),
          ${misc:Depends}
 Description: library to create window decorations - debug info
  .
