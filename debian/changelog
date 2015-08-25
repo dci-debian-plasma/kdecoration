@@ -1,6 +1,8 @@
 kdecoration (4:5.3.95-0ubuntu2) UNRELEASED; urgency=medium
 
   * Merge with debian unstable to adopt library transition
+  * Add lintian overrides for the now mismatching libname-pkgname (due to v5
+    suffix)
 
  -- Harald Sitter <sitter@kde.org>  Tue, 25 Aug 2015 10:45:38 +0200
 
