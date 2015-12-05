@@ -1,3 +1,9 @@
+kdecoration (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 04 Dec 2015 18:45:13 -0800
+
 kdecoration (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
@@ -20,17 +26,42 @@ kdecoration (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 11:39:55 -0700
 
+kdecoration (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:46:12 +0100
+
+kdecoration (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:29 +0200
+
 kdecoration (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 15:52:17 +0100
 
+kdecoration (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:49 +0200
+
 kdecoration (4:5.4.1-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:14:14 +0100
+
+kdecoration (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.3.95).
+  * New upstream release (5.4.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 13:51:41 +0200
 
 kdecoration (4:5.4.0-0ubuntu1) wily; urgency=medium
 
