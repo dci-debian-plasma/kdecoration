@@ -3,7 +3,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libkdecorations2-dbg
+	$(overridden_command) --dbgsym-migration='libkdecorations2-dbg (<= 4:5.5.5-1~~)'
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
