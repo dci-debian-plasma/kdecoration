@@ -1,8 +1,8 @@
-kdecoration (4:5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+kdecoration (4:5.5.5-0ubuntu1) xenial; urgency=medium
 
   * New upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Tue, 08 Mar 2016 22:03:49 +0000
+ -- Clive Johnston <clivejo@aol.com>  Thu, 14 Apr 2016 13:36:13 -0700
 
 kdecoration (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
