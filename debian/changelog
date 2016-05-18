@@ -1,10 +1,8 @@
-kdecoration (4:5.6.4-1~1.gbp1cd116) UNRELEASED; urgency=medium
+kdecoration (4:5.6.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @1cd1160d3dd85f516a154e55c5c71c84438523bf **
+  * Release to unstable.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:48:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 May 2016 21:14:06 +0200
 
 kdecoration (4:5.6.3-1) experimental; urgency=medium
 
