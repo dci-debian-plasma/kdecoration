@@ -1,3 +1,11 @@
+kdecoration (4:5.6.5-1~1.gbp974bd8) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @974bd89cfd8a733b25afbd47b310b1d1caaa1d48 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 18:48:20 +0200
+
 kdecoration (4:5.6.4-1) unstable; urgency=medium
 
   * Release to unstable.
