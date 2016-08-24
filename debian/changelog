@@ -1,13 +1,14 @@
-kdecoration (4:5.7.3-1~2.gbpa25710) UNRELEASED; urgency=medium
+kdecoration (4:5.7.4-1~1.gbpf07e98) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a2571081d75643147b8c25db3e5afdcddaa156a8 **
+  ** SNAPSHOT build @f07e984a1a81bce1dc64ac28983f8a0504caf262 **
 
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 11 Aug 2016 16:10:02 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 18:48:09 +0200
 
 kdecoration (4:5.7.0-1) unstable; urgency=medium
 
