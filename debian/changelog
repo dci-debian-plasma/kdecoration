@@ -1,14 +1,15 @@
-kdecoration (4:5.7.4-1~1.gbpf07e98) UNRELEASED; urgency=medium
+kdecoration (4:5.7.4-1~2.gbpc89f58) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f07e984a1a81bce1dc64ac28983f8a0504caf262 **
+  ** SNAPSHOT build @c89f58b113489aea71c5d3c3f256a2b1a892d8b7 **
 
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Bump group breaks (5.7)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 18:48:09 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 10:48:20 +0200
 
 kdecoration (4:5.7.0-1) unstable; urgency=medium
 
