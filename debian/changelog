@@ -1,11 +1,12 @@
-kdecoration (4:5.8.0-1~1.gbp478c72) UNRELEASED; urgency=medium
+kdecoration (4:5.8.0-1~2.gbp43e855) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @478c72a18e1723694e0bdc086050126eccaa1d3e **
+  ** SNAPSHOT build @43e855c277276df0b5edfcaf0b0b05a6380e0b07 **
 
   * UNRELEASED
   * UNRELEASED
+  * Replace dbus-launch with dbus-run-session in tests
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:43 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 17:48:28 +0200
 
 kdecoration (4:5.7.4-1) unstable; urgency=medium
 
