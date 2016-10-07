@@ -1,12 +1,10 @@
-kdecoration (4:5.8.0-1~2.gbp43e855) UNRELEASED; urgency=medium
+kdecoration (4:5.8.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @43e855c277276df0b5edfcaf0b0b05a6380e0b07 **
-
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (5.8.0)
   * Replace dbus-launch with dbus-run-session in tests
+  * Bump group breaks (5.8)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 17:48:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:02:55 +0200
 
 kdecoration (4:5.7.4-1) unstable; urgency=medium
 
