@@ -1,10 +1,8 @@
-kdecoration (4:5.8.1-1~1.gbp6ad338) UNRELEASED; urgency=medium
+kdecoration (4:5.8.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @6ad338f3c3d64badcf91a4f4a78edde995214df3 **
+  * New upstream release (5.8.1)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:48:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:57:33 +0200
 
 kdecoration (4:5.8.0-1) unstable; urgency=medium
 
