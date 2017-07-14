@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.3.0 amd64
+# SymbolsHelper-Confirmed: 4:5.10.3 amd64
 libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration210Decoration10setBordersERK8QMargins@Base 5.1.50
  _ZN12KDecoration210Decoration10wheelEventEP11QWheelEvent@Base 5.1.50
@@ -21,6 +21,7 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration210Decoration17mouseReleaseEventEP11QMouseEvent@Base 5.1.50
  _ZN12KDecoration210Decoration18requestContextHelpEv@Base 5.1.50
  _ZN12KDecoration210Decoration18requestToggleShadeEv@Base 5.1.50
+ _ZN12KDecoration210Decoration19showApplicationMenuEi@Base 4:5.10.3
  _ZN12KDecoration210Decoration20setResizeOnlyBordersERK8QMargins@Base 5.1.50
  _ZN12KDecoration210Decoration21requestShowWindowMenuEv@Base 5.1.50
  _ZN12KDecoration210Decoration22requestToggleKeepAboveEv@Base 5.1.50
@@ -28,6 +29,7 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration210Decoration24resizeOnlyBordersChangedEv@Base 5.1.50
  _ZN12KDecoration210Decoration24sectionUnderMouseChangedEN2Qt18WindowFrameSectionE@Base 5.1.50
  _ZN12KDecoration210Decoration25requestToggleMaximizationE6QFlagsIN2Qt11MouseButtonEE@Base 5.1.50
+ _ZN12KDecoration210Decoration26requestShowApplicationMenuERK5QRecti@Base 4:5.10.3
  _ZN12KDecoration210Decoration26requestToggleOnAllDesktopsEv@Base 5.1.50
  _ZN12KDecoration210Decoration4initEv@Base 5.1.50
  _ZN12KDecoration210Decoration5eventEP6QEvent@Base 5.1.50
@@ -65,10 +67,13 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZN12KDecoration215DecoratedClient17resizeableChangedEb@Base 5.1.50
  _ZN12KDecoration215DecoratedClient19maximizeableChangedEb@Base 5.1.50
  _ZN12KDecoration215DecoratedClient19minimizeableChangedEb@Base 5.1.50
+ _ZN12KDecoration215DecoratedClient19showApplicationMenuEi@Base 4:5.10.3
  _ZN12KDecoration215DecoratedClient20onAllDesktopsChangedEb@Base 5.1.50
+ _ZN12KDecoration215DecoratedClient25hasApplicationMenuChangedEb@Base 4:5.10.3
  _ZN12KDecoration215DecoratedClient26adjacentScreenEdgesChangedE6QFlagsIN2Qt4EdgeEE@Base 5.1.50
  _ZN12KDecoration215DecoratedClient26maximizedVerticallyChangedEb@Base 5.1.50
  _ZN12KDecoration215DecoratedClient26providesContextHelpChangedEb@Base 5.1.50
+ _ZN12KDecoration215DecoratedClient28applicationMenuActiveChangedEb@Base 4:5.10.3
  _ZN12KDecoration215DecoratedClient28maximizedHorizontallyChangedEb@Base 5.1.50
  _ZN12KDecoration215DecoratedClientC1EPNS_10DecorationEPNS_16DecorationBridgeE@Base 5.1.50
  _ZN12KDecoration215DecoratedClientC2EPNS_10DecorationEPNS_16DecorationBridgeE@Base 5.1.50
@@ -224,9 +229,11 @@ libkdecorations2.so.5 libkdecorations2-5v5 #MINVER#
  _ZNK12KDecoration215DecoratedClient14isMaximizeableEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient14isMinimizeableEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient15isOnAllDesktopsEv@Base 5.1.50
+ _ZNK12KDecoration215DecoratedClient18hasApplicationMenuEv@Base 4:5.10.3
  _ZNK12KDecoration215DecoratedClient19adjacentScreenEdgesEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient19providesContextHelpEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient21isMaximizedVerticallyEv@Base 5.1.50
+ _ZNK12KDecoration215DecoratedClient23isApplicationMenuActiveEv@Base 4:5.10.3
  _ZNK12KDecoration215DecoratedClient23isMaximizedHorizontallyEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient4iconEv@Base 5.1.50
  _ZNK12KDecoration215DecoratedClient5colorEN8QPalette10ColorGroupENS1_9ColorRoleE@Base 4:5.3.0
