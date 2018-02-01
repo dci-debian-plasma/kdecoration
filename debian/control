@@ -60,4 +60,3 @@ Depends: libkdecorations2-5v5 (= ${binary:Version}) | libkdecorations2private5v5
 Description: library to create window decorations - debug info
  .
  This package contains the debugging symbols.
-
